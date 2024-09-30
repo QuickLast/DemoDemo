@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2ef3cc01b9624841a5df4ec55a6c19f2" Name="Diagram1">
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Client" Width="1.5" PointX="0.75" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.ClientService" Width="1.5" PointX="3" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.DocumentByService" Width="1.5" PointX="5.25" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Gender" Width="1.5" PointX="1.5" PointY="13.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Manufacturer" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Product" Width="1.5" PointX="3" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.ProductPhoto" Width="1.5" PointX="5.25" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.ProductSale" Width="1.5" PointX="5.25" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Service" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.ServicePhoto" Width="1.5" PointX="3" PointY="19.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DEMODEMO_OSIPOVModel.Tag" Width="1.5" PointX="3" PointY="16.25" IsExpanded="true" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="DEMODEMO_OSIPOVModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
